@@ -1,0 +1,57 @@
+<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>SSO</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"><style>body {
+      font-family: 'Roboto Condensed';
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      height: 100%;
+      width: 100%;
+      max-width: 100%;
+      position: absolute;
+      top: 0;
+      overflow: hidden;
+    }
+
+    .draggable {
+      background: rgba(255, 153, 0, 0.7);
+      padding: 10px;
+      position: absolute;
+    }
+
+    .draggable h3 {
+      margin: 0;
+      margin-bottom: 12px;
+    }
+
+    .draggable>div {
+      margin-bottom: 7px;
+    }
+
+    .draggable.is-pointer-down {
+      background: #09F;
+      z-index: 2;
+    }
+
+    .draggable.is-dragging {
+      opacity: 0.7;
+    }
+
+    .video-wrap {
+      position: relative;
+    }
+
+    .controls {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .floor-btns {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }</style><script defer="defer" src="bundle.js"></script></head><body><div class="video-wrap"><video id="myVideo" width="100%" height="auto" controls autoplay muted loop><source src="./video/buildings2.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.</video><div class="container"></div><div class="controls"><div class="form-group"><label for="widget-name">Widget Name</label> <input class="form-control" id="widget-name" name="widget-name"></div><label for="select-floor">Select Floor:</label> <select id="select-floor" class="form-select"><option value="">Select a floor</option><option value="floor1">Floor 1</option><option value="floor2">Floor 2</option><option value="floor3">Floor 3</option></select><div class="form-group"><label for="x-axis">X Axis:</label> <input class="form-control" type="number" id="x-axis" name="x-axis"></div><div class="form-group"><label for="y-axis">Y Axis:</label> <input class="form-control" type="number" id="y-axis" name="y-axis"></div><div class="form-group"><label for="height">Height:</label> <input class="form-control" type="number" id="height" name="height"></div><div class="form-group"><label for="width">Width:</label> <input class="form-control" type="number" id="width" name="width"></div><div class="form-group"><label for="color">Color:</label> <input class="form-control" id="color" name="color"></div><div class="form-group"><label for="opacity">Opacity:</label> <input class="form-control" type="number" id="opacity" name="opacity"></div><button type="button" class="btn btn-primary mt-2" id="submit-button">Save</button></div><div class="floor-btns"><button type="button" class="btn btn-primary" data-floor="floor1">Floor 1</button> <button type="button" class="btn btn-primary" data-floor="floor2">Floor 2</button> <button type="button" class="btn btn-primary" data-floor="floor3">Floor 3</button></div></div><script src="js/bundle.js"></script></body></html>
