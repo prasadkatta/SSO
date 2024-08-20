@@ -1,0 +1,48 @@
+{
+  "widgets": [
+    {
+      "id": 1,
+      "widgetName": "widget1",
+      "xAxis": 261.9999694824219,
+      "yAxis": 236.20001220703125,
+      "height": 200,
+      "width": 200,
+      "color": "#dcdcdc",
+      "opacity": 0.8,
+      "floor": "floor1"
+    },
+    {
+      "id": 2,
+      "widgetName": "Widget2",
+      "xAxis": 713.2000122070312,
+      "yAxis": 294.8000030517578,
+      "height": 200,
+      "width": 200,
+      "color": "#ff0000",
+      "opacity": 0.8,
+      "floor": "floor2"
+    },
+    {
+      "id": 3,
+      "widgetName": "widget3",
+      "xAxis": 1137.6000061035156,
+      "yAxis": 269.5999755859375,
+      "height": 200,
+      "width": 200,
+      "color": "#f7f7f7",
+      "opacity": 0.8,
+      "floor": "floor3"
+    },
+    {
+      "id": 4,
+      "widgetName": "Widget4",
+      "xAxis": 937.5999755859375,
+      "yAxis": 241,
+      "height": 200,
+      "width": 200,
+      "color": "#fcfcfc",
+      "opacity": 0.8,
+      "floor": "floor1"
+    }
+  ]
+}
